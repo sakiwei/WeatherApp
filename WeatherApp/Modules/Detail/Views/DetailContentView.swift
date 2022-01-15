@@ -42,7 +42,7 @@ final class DetailContentView: UIView {
 
         forcastDisplayView.snp.makeConstraints { make in
             make.top.bottom.equalTo(scrollView)
-            make.left.right.equalTo(self)
+            make.leftMargin.rightMargin.equalTo(self)
         }
     }
 }
